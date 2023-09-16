@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .border-gradient-top {
+        border-width: 1px 0 0 0;
+        /* Only apply the top border */
+        border-style: solid;
+        border-image: linear-gradient(207deg, rgba(69, 74, 84, 0.00) 0%, #3596FF 49.01%, rgba(69, 74, 84, 0.00) 100%) 1;
+    }
+
+    .text-white-opacity-82 {
+        color: rgba(255, 255, 255, 0.62);
+    }
+}
+
+body {
+    background-color: #131416 !important;
+    padding: 0px;
+    margin: 0px;
+}
+
+.font-inter{
+    font-family: 'Inter', sans-serif;
+}
+.font-epilogue{
+    font-family: 'Epilogue', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    /* Adjust the width as needed */
+    border-radius: 8px;
+    /* Adjust the border radius as needed */
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    /* Color of the scrollbar thumb */
+    border-radius: 8px;
+    /* Adjust the border radius to match the parent scrollbar */
+}

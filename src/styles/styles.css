@@ -1,0 +1,209 @@
+.header-one {
+    background-color: #131416;
+}
+.back-Card{
+    background-image: url(../assets/images/ourOptimizer/card-back.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-two {
+    background-color: transparent !important;
+    z-index: 99999;
+    position: absolute;
+    width: 100%;
+}
+
+.input_border {
+    border-radius: 8px !important;
+    border: 1px solid #81818E !important;
+}
+
+.textarea {
+    resize: none !important;
+
+}
+
+.bg-img {
+    background-image: url("../assets/images/contactUs/blue-backgound.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border-gradient {
+    border-image: linear-gradient(to right, #454A5400, #3596FF) 1;
+}
+
+.card-text-color {
+    background: linear-gradient(180deg, #FFF 22.50%, rgba(255, 255, 255, 0.70) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sides {
+    border-top: 1px solid #2a71bf;
+    border-left: 1px solid #2a71bf;
+    border-right: 1px solid #2a71bf;
+    border-radius: 16px;
+}
+
+.card-LeftSide {
+    border-top: 1px solid #2a71bf;
+    border-bottom: 2px solid #2a71bf;
+    border-left: 1px solid #2a71bf;
+    border-radius: 16px;
+}
+
+.card-rightSide {
+    border-top: 1px solid #2a71bf;
+    border-bottom: 2px solid #2a71bf;
+    border-right: 1px solid #2a71bf;
+    border-radius: 16px;
+}
+
+.mobileSides {
+    border-top: 1px solid #2a71bf;
+    border-bottom: 1px solid #2a71bf;
+    border-right: 1px solid #2a71bf;
+    border-radius: 44px;
+}
+
+.font_1 {
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.58) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+}
+
+.font-head {
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.58) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grey-btn {
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    background: rgba(255, 255, 255, 0.04);
+    padding: 12px 13px 12px 13px;
+}
+
+.controlText {
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.74) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.font_2 {
+
+    display: none;
+}
+
+.para-lg {
+    display: block;
+}
+
+.para-sm {
+    display: none;
+}
+
+.background-blue {
+    background-image: url(../assets/images/winnerWizard/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.background-blue-home{
+    background-image: url(../assets/images/homepage/frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.icon-container {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .icon-container:hover {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+  .active-link {
+    border-bottom: 2px solid #007bff; /* Add the desired border color */
+  }
+  /* Add default icon styling */
+  .icon-style {
+    font-size: 16px; /* Adjust size as needed */
+    color: #fff; /* Adjust color as needed */
+  }
+@media (max-width: 639px) and (min-width: 320px) {
+    .font_2 {
+        background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.58) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: block !important;
+    }
+
+    .font_1 {
+        display: none !important;
+    }
+
+    .para-lg {
+        display: none !important;
+    }
+
+    .para-sm {
+        display: block !important;
+    }
+}
+
+.text-space {
+    word-spacing: 2px;
+}
+
+.text-opacity {
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.price {
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.74) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+.borderCards{
+    border-top: 1px solid rgb(31, 31, 31);
+    border-left:1px solid rgb(31, 31, 31);
+    border-right: 1px solid rgb(31, 31, 31);
+    border-bottom: 1px solid rgb(32, 30, 30);
+    border-radius: 16px;
+}
+@media (max-width: 767px) and (min-width: 640px) {
+    .font_2 {
+        background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.58) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 56px;
+        display: block !important;
+    }
+
+    .font_1 {
+        display: none !important;
+    }
+}
+
+@media (max-width:850px) and (min-width: 320px) {
+    .hidden-small {
+        display: none !important;
+    }
+
+    .show-small {
+        display: block !important;
+    }
+}
